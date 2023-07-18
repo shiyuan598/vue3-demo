@@ -86,6 +86,15 @@ vscode中tailwind不提示：
      "strings": "on"
  },
 
+Unknown at rule @tailwind
+安装插件：PostCSS Language Support
+添加vscode配置：
+ "emmet.includeLanguages": {
+    "postcss": "css"
+  }
+文档：https://www.tailwindcss.cn/docs/installation
+
+
 错误处理：
 Cannot find module './App.vue' or its corresponding type declarations.
 npm install --save-dev @types/vue
